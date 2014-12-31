@@ -27,6 +27,7 @@
     .row                                        { margin-bottom: 20px; }
 
     /* Nested Column Classes */
+    .row.nested                                 { margin-left: -10px; margin-right: -10px; }
     .column.alpha, .columns.alpha               { padding-left: 0; }
     .column.omega, .columns.omega               { padding-right: 0; }
 
