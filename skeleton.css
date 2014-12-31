@@ -89,7 +89,7 @@
 
     /*@media only screen and (max-width: 767px) {*/
     @media only screen and (max-width: 767px), (min-width: 769px) and (max-width: 959px) {
-        .container { width: 100%; padding-left: 20px; padding-right: 20px; box-sizing: border-box; }
+        .container { width: 100%; padding-left: 20px !important; padding-right: 20px !important; box-sizing: border-box; }
         .container .columns,
         .container .column { margin: 0; }
 
@@ -111,7 +111,7 @@
         .container .fifteen.columns,
         .container .sixteen.columns,
         .container .one-third.column,
-        .container .two-thirds.column  { width: 100%; padding: 0; }
+        .container .two-thirds.column  { width: 100%; padding: 0 !important; }
 
         /* Offsets */
         .container .offset-by-one,
