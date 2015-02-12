@@ -53,6 +53,11 @@
     .container .one-third.column                { width: 33.33%; }
     .container .two-thirds.column               { width: 66.67%; }
 
+    .container .one-fifth.column                { width: 20%;    }
+    .container .two-fifths.column               { width: 40%;    }
+    .container .three-fifths.column             { width: 60%;    }
+    .container .four-fifths.column              { width: 80%;    }
+
     /* Offsets */
     .container .offset-by-one                   { margin-left: 6.25%;  }
     .container .offset-by-two                   { margin-left: 12.5%; }
